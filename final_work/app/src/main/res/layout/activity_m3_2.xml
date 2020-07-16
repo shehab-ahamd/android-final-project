@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".m3_2">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiri"
+        android:text="سيكلوفوسفاميد"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+android:text="بداية الفعالية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:textSize="20sp"
+android:text="يحدث تحسن في أعراض المرض خلال عدة أسابيع.
+
+"
+        android:layout_marginEnd="5dp"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        />
+
+
+    <TextView
+        android:layout_marginEnd="5dp"
+
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+android:textSize="24sp"
+android:text="مدة الفعالية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginEnd="5dp"
+
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:textSize="20sp"
+android:text="3 - 12 ساعة ."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+ />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="بالتغذية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+android:textSize="20sp"
+        android:text=" يوصى بتناول الأقراص على معدة فارغة. في فترة العلاج، موصى بشرب كأس واحد ممتلىء من السوائل كل ساعة. يجب الحرص على شرب 8 كاسات ممتلئة من السوائل على الأقل في اليوم."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="24sp"
+        android:text="نسيان الجرعة : "
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:textSize="20sp"
+        android:text="في حال نسيان تناول القرص، يجب تناوله فور التذكر إلا إٍذا حان وقت الوجبة التالية، عندها يجب التجاوز عن ألوجبة المنسية والاٍستمرار كالمعتاد."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+         />
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        android:text="وقف الدواء :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:textSize="20sp"
+        android:text="يمنع التوقف عن تناول الدواء دون وجود أوامر واضحة من الطبيب."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        />
+    <Button
+
+        android:id="@+id/buttonplus3"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/amiri"
+        android:text="المزيد من المعلومات"
+        android:textSize="24sp" />
+
+</LinearLayout>

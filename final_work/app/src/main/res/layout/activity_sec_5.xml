@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".sec_5">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiri"
+        android:text="السيكلوفوسفاميد"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="الأطفال والرضع :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="يجب تقليل وملائمة الجرعه حسب الجيل والوزن ."
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView34"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="كبار السن :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="من المفضل بدء العلاج بتناول جرعة قليله وزياده الكميه بشكل تدريجي بسبب وجود احتمال متزايد لظهور آثار جانبيه.
+"
+        android:textAlignment="viewEnd"
+
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="السياقة:"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="لا توجد مشاكل معروفه.
+"
+        android:textAlignment="viewEnd"
+
+        android:textColor="#090000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="العملية الجراحية والتخدير:"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="يجب ابلاغ الطبيب الجراح او الطبيب المخدر عن استعمال هذا الدواء.
+
+"
+        android:textAlignment="viewEnd"
+
+        android:textColor="#090000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/exit1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/amiri"
+        android:text="تأثيرات جانبية للدواء سيكلوفوسفاميد"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.final_work">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".the_6"></activity>
+        <activity android:name=".the_5" />
+        <activity android:name=".the_4" />
+        <activity android:name=".the_3" />
+        <activity android:name=".the_2" />
+        <activity android:name=".the_1" />
+        <activity android:name=".sec_6" />
+        <activity android:name=".sec_5" />
+        <activity android:name=".sec_4" />
+        <activity android:name=".sec_3" />
+        <activity android:name=".sec_2" />
+        <activity android:name=".sec_1" />
+        <activity android:name=".pharmacist" />
+        <activity android:name=".doctor" />
+        <activity android:name=".m3_5" />
+        <activity android:name=".m3_4" />
+        <activity android:name=".m3_3" />
+        <activity android:name=".m3_2" />
+        <activity android:name=".m3_1" />
+        <activity android:name=".n9ay7" />
+        <activity android:name=".phone" />
+        <activity android:name=".qr" />
+        <activity android:name=".siklo1" />
+        <activity android:name=".details" />
+        <activity android:name=".midicine" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

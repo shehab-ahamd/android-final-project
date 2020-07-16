@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".m3_3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiri"
+        android:text="سيكلوفوسفاميد"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="جرعة زائدة :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="في حال تناول جرعة زائدة يمكن أن تظهر أعراض مثل، كبت زائد لنقي العظم ولجهاز المناعة، والذي يؤدي بدوره اٍلى العدوى. بالإضافة يمكن أن تظهر مشاكل قلبية. يجب التوجه لطلب مساعدة طبية."
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView33"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+android:textSize="24sp"
+        android:text="تحذيرات عند تناول الدواء سيكلوفوسفاميد
+"
+        android:textAlignment="center"
+        android:textColor="#FA000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="اثناء الحمل :"
+        android:layout_marginEnd="5dp"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+         />
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="أثبتت الأبحاث التي أجريت على الحيوانات أن الدواء قادر بالتسبب بعاهات جسدية عند الجنين. موصى بعدم الحمل أثناء تناول الدواء. (D)"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:layout_marginEnd="5dp"
+
+        />
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_marginEnd="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="اثناء الرضاعة :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+
+        />
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="لا يعطى. الدواء ينتقل الى حليب الام ومن المحتمل ان يؤثر على الطفل. من المفضل عدم تناول الدواء او عدم الارضاع."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:layout_marginEnd="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/exit1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/amiri"
+        android:text="المزيد من المعلومات"
+        android:textSize="24sp" />
+</LinearLayout>

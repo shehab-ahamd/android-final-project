@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+
+    android:orientation="vertical"
+    tools:context=".sec_1">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiri"
+        android:text="سيكلوفوسفامد"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/orion" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/amiri"
+        android:text="الشركة المصنعة للدواء هي:ORION PHARMA"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="معلومات :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="هو دواء سام للخلايا الذي ينتمي لمستحضرات الألكلة (Alkylation)، ألتي طُورت بالأساس وما زالت تُستعمل أساسا لعلاج أنواع السرطانات المختلفة مثل: ورم نقيي متعدد (Multiple Myeloma)، ليمفوما، سرطان الدم، سرطان الثدي، سرطان المبيض، ورم أرومي شبكي (Retinoblastoma) وأنواع أخرى."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/buttonplus1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:fontFamily="@font/amiri"
+        android:text="المزيد من المعلومات"
+        android:textSize="24sp" />
+</LinearLayout>
